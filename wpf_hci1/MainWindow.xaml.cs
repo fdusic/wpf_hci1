@@ -24,5 +24,7 @@ namespace wpf_hci1
         {
             InitializeComponent();
         }
+
+       
     }
 }
