@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf_hci1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="700" Width="900"
+        WindowStartupLocation="CenterScreen">
     <DockPanel>
         <Menu DockPanel.Dock="Top">
-            <MenuItem Header="_View"></MenuItem> 
+            <MenuItem Header="_New resource" Click="UnosAkcija"></MenuItem> 
         </Menu>
         <Grid DockPanel.Dock="Bottom">
             <Grid.Background>
-                <ImageBrush ImageSource="slike\mapa_mozda.jpg"></ImageBrush>
+                <ImageBrush ImageSource="G:\github\wpf_hci1\slike\map.jpg"></ImageBrush>
             </Grid.Background>
-
         </Grid>
     </DockPanel>
 </Window>

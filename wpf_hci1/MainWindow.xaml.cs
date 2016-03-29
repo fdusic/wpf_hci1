@@ -25,6 +25,10 @@ namespace wpf_hci1
             InitializeComponent();
         }
 
-       
+        private void UnosAkcija(object sender, RoutedEventArgs e)
+        {
+            var v = new Resource();
+            v.Show();
+        }
     }
 }
