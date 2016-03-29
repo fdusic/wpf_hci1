@@ -8,13 +8,13 @@
         Title="MainWindow" Height="350" Width="525">
     <DockPanel>
         <Menu DockPanel.Dock="Top">
-            <MenuItem Header="View">
-                <MenuItem Header="World Map"></MenuItem> 
-            </MenuItem> 
-            
+            <MenuItem Header="_View"></MenuItem> 
         </Menu>
         <Grid DockPanel.Dock="Bottom">
-    
+            <Grid.Background>
+                <ImageBrush ImageSource="C:\Github\wpf_hci1\slike\mapa_mozda.jpg"></ImageBrush>
+            </Grid.Background>
+
         </Grid>
     </DockPanel>
 </Window>
