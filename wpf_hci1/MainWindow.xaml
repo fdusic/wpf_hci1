@@ -12,7 +12,7 @@
         </Menu>
         <Grid DockPanel.Dock="Bottom">
             <Grid.Background>
-                <ImageBrush ImageSource="C:\Github\wpf_hci1\slike\mapa_mozda.jpg"></ImageBrush>
+                <ImageBrush ImageSource="slike\mapa_mozda.jpg"></ImageBrush>
             </Grid.Background>
 
         </Grid>
