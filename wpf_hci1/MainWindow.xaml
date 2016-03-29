@@ -15,7 +15,6 @@
         </Menu>
         <Grid DockPanel.Dock="Bottom">
     
-
         </Grid>
     </DockPanel>
 </Window>
