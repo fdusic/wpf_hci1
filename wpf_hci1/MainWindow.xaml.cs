@@ -30,5 +30,17 @@ namespace wpf_hci1
             var v = new Resource();
             v.Show();
         }
+
+        private void TypeAction(object sender, RoutedEventArgs e)
+        {
+            var v = new ResourceType();
+            v.Show();
+        }
+
+        private void LabelAction(object sender, RoutedEventArgs e)
+        {
+            var v = new Label();
+            v.Show();
+        }
     }
 }

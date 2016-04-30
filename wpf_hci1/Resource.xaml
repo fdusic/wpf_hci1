@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf_hci1"
         mc:Ignorable="d"
-        Title="Resource" Height="300" Width="300"
+        Title="Resource" Height="327" Width="300"
         WindowStartupLocation="CenterScreen">
-    <Grid>
+    <Border BorderBrush="Black" BorderThickness="2">
+        <Grid Margin="12,12,12,12">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
@@ -59,4 +60,5 @@
         <TextBlock Grid.Column="0" Grid.Row="14"> Icon: </TextBlock>
         <Button Grid.Column="1" Grid.Row="14" Content="Choose"></Button>
     </Grid>
+    </Border>
 </Window>

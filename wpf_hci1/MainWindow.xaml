@@ -9,7 +9,11 @@
         WindowStartupLocation="CenterScreen">
     <DockPanel>
         <Menu DockPanel.Dock="Top">
-            <MenuItem Header="_New resource" Click="UnosAkcija"></MenuItem> 
+            <MenuItem Header="_New resource" Click="UnosAkcija"></MenuItem>
+            <Separator></Separator>
+            <MenuItem Header="_New resource type" Click="TypeAction"></MenuItem>
+            <Separator></Separator>
+            <MenuItem Header="_New label" Click="LabelAction"></MenuItem>
         </Menu>
         <Grid DockPanel.Dock="Bottom">
             <Grid.Background>
